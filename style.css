@@ -1,0 +1,219 @@
+body{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    position: absolute;
+}
+
+nav{
+    background-color:rgb(236, 223, 223);
+    width: auto;
+    height: 1600px;
+}
+.main-header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    
+
+}
+.menu{
+    padding: 10px 10px 5px 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ccc;
+    margin-right: 15px;
+}
+.left-menu {
+    margin-right: auto;
+
+}
+.menu.right-menu {
+    margin-left:auto;
+    margin-right: 20px;
+    border: 1px solid #000;
+}
+.menu > a{
+color: #ccc;
+text-decoration: none;
+}
+.home-menu, .get-quote-menu,
+.home-menu a, .get-quote-menu  a{
+color: black;
+text-decoration: none;
+
+}
+/* main-body-style: */
+.main-body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.download-section >* {
+display: flex;
+justify-content: center;
+
+
+}
+.download-section > *:not(:first-child){
+    padding-bottom: 30px;
+}
+.app-icon img{
+    width: 220px;
+    margin:20px;
+}
+.phone-image img {
+width: 800px;
+height: 490px;
+}
+.download-header >*{
+    font-size: 80px;
+}
+.description >* {
+    font-size: 40px;
+}
+.our-product-header > *{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+}
+.product-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.product-container >*{
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 500px;
+    background-color:rgb(236, 223, 223);;
+    margin-left: 20px;
+    
+    
+    
+}
+
+div,h1.node-name{
+    font-size: 70px;
+    text-align: center;
+    margin-top: auto;
+    padding-bottom: 20px;
+    margin-top: 70px;
+    color: black;
+}
+span.node-description {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: black;
+
+}
+.node-image{
+    width: 150px;
+    margin: 0 auto;
+    color: #000;
+}
+.collection-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 200px;
+    width: 100%;
+}
+.collection-container >*{
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 1060px;
+    height: 600px;
+    background-color:black;
+    margin-right: 0px;    
+}
+.collection-node {
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: space-between;
+    justify-items: center;
+    width: 800px;
+    height: 650px;
+}
+div,h2.node-name {
+    font-size: 70px;
+    text-align: center;
+    margin-top: auto;
+    color: white;
+    padding-bottom: 20px;
+    margin-top: 70px;
+}
+.node-description1 {
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 20px;
+    color:  white;
+}
+a,button.button-name {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #000;
+     
+    text-decoration: none;
+    padding-left: 10px;
+    
+}
+div.main-footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* margin-right: 0%; */
+    background-image: url(images/map.png);
+    height: 1500px;
+    margin-top: 350px;
+}
+
+
+.contact-container {
+    margin-left: 900px;
+    margin-top: 200px;
+    margin-right: 450px;
+    background-color: white;
+}
+.contact-node {
+    padding: 2px;
+}
+div.contact-header {
+    font-size: 70px;
+    font-weight: 700;
+    color: black;
+    padding-top: 30px;
+}
+.contact-paragraph {
+    font-size: 50px;
+    font-weight: 300;
+    color: black;
+}
+.description3 {
+    font-size: 40px;
+    color: #ccc;
+}
+.map-icon {
+    font-size: 20px;
+    color: black;
+}
+.phone-icon {
+    font-size: 20px;
+    color: black;
+}
+.mail-icon {
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: black;
+}
